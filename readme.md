@@ -19,3 +19,9 @@ https://www.codegrepper.com/api/send_feedback.php
 ```yaml
 https://www.codegrepper.com/api/update_answer.php
 ```
+
+**[Add snippet api](https://www.codegrepper.com/api/send_feedback.php).**
+
+```yaml
+https://www.codegrepper.com/api/save_answer.php
+```
