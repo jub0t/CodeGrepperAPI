@@ -14,13 +14,13 @@ https://www.codegrepper.com/search.php?q=
 https://www.codegrepper.com/api/send_feedback.php
 ```
 
-**[Update snippet api](https://www.codegrepper.com/api/send_feedback.php).**
+**[Update snippet api](https://www.codegrepper.com/api/update_answer.php).**
 
 ```yaml
 https://www.codegrepper.com/api/update_answer.php
 ```
 
-**[Add snippet api](https://www.codegrepper.com/api/send_feedback.php).**
+**[Add snippet api](https://www.codegrepper.com/api/save_answer.php).**
 
 ```yaml
 https://www.codegrepper.com/api/save_answer.php
