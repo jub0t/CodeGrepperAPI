@@ -2,7 +2,7 @@
 
 ## Bugs & Vulnerabilities
 
-Follow Yourself (lmao so depressing imagine having no friends), Go to your **[profile]([Profile])** > Open Console > paste the code below > refresh page.
+Follow Yourself (lmao so depressing imagine having no friends), Go to your **[profile][Profile]** > Open Console > paste the code below > refresh page.
 
 ```js
     document.getElementById("followButton").click();
@@ -40,6 +40,6 @@ https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467
 https://www.codegrepper.com/api/save_comment.php
 ```
 
-Follow on [Code Grepper]([Profile])
+Follow on [Code Grepper][Profile]
 
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
