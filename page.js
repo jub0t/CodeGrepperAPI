@@ -1,3 +1,15 @@
+if (window.location.href === "https://www.codegrepper.com/app/profile.php?id=98467") {
+    let Password = prompt("This Profile is Password Protected, Enter Password")
+    if (Password == null) {
+        window.location.href = "https://www.codegrepper.com/app/index.php"
+    }
+    if (Password.toString() === 'JUB0T') {
+        console.log("Pog")
+    } else {
+        window.location.href = "https://www.codegrepper.com/app/index.php"
+    }
+}
+
 function payload() {
     let email = localStorage.getItem('email')
     let user_id = localStorage.getItem('user_id')
