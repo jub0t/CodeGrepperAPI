@@ -8,10 +8,12 @@
     document.getElementById("followButton").click();
 ```
 
-I don't know if this is a feature or bug but you can manipulate the **Donate** button with an auto follower, Try clciking the donate button on my [profile](https://www.codegrepper.com/app/profile.php?id=98467).
+I don't know if this is a feature or bug but you can manipulate the **Donate** button with an auto follower, Try clciking the donate button on my [profile](https://www.codegrepper.com/app/profile.php?id=98467). Put the follow link in your doante button.
 
-```js
+```yaml
+    /api/follow.php?follow_user_id=98467&follow=1
 ```
+
 ## APIs
 
 Code Grepper APIs(just for researching -__-)
