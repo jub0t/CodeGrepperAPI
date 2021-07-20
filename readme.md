@@ -2,7 +2,7 @@
 
 ## Bugs & Vulnerabilities
 
-**Follow Yourself:** Go to your *[profile][Profile]* > Open Console > paste the code below > refresh page.
+**Follow Yourself:** Go to your **[profile][Profile]** > Open Console > paste the code below > refresh page.
 
 ```js
     document.getElementById("followButton").click();
