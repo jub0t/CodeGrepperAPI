@@ -8,6 +8,10 @@
     document.getElementById("followButton").click();
 ```
 
+I don't know if this is a feature or bug but you can manipulate the **Donate** button with an auto follower, Try clciking the donate button on my [profile](https://www.codegrepper.com/app/profile.php?id=98467).
+
+```js
+```
 ## APIs
 
 Code Grepper APIs(just for researching -__-)
@@ -34,6 +38,10 @@ https://www.codegrepper.com/api/save_comment.php
 
 ```yaml
 https://www.codegrepper.com/app/profile.php?id=98467
+```
+
+```yaml
+https://www.codegrepper.com/api/follow.php?follow_user_id=98467&follow=1
 ```
 
 ```yaml
