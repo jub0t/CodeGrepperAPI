@@ -18,6 +18,3 @@ async function SendFeedback() {
         })
         .catch((err) => console.log(err));
 } SendFeedback()
-
-Upvote = parseInt(localStorage.getItem("upvotes"))
-console.log(Upvote)
