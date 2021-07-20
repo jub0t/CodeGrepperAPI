@@ -42,4 +42,4 @@ https://www.codegrepper.com/api/save_comment.php
 
 Follow on [Code Grepper]([Profile])
 
-[Profile]: (https://www.codegrepper.com/app/profile.php?id=98467)
+[Profile]: https://www.codegrepper.com/app/profile.php?id=98467
