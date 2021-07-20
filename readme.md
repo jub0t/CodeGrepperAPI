@@ -2,7 +2,7 @@
 
 ## Improvements
 
-There are 2 files called `main.css`, `popup.css` & `codegrepper.css` these are the minified versions of the Profile Page's stylesheets, Will help load the page faster.
+There are files called `main.css`, `my_profile.js`, `popup.css` & `codegrepper.css` these are the minified versions of the Profile Page's stylesheets, Will help load the page faster.
 
 ## Bugs & Vulnerabilities
 
