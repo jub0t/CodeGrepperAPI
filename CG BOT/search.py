@@ -32,7 +32,7 @@ user_Id = "98467"  # Your user id
 max_followers = 9999  # max follows
 
 Options = Options()
-Options.headless = True
+## Options.headless = True
 Options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 for i in range(1, max_followers):
@@ -40,31 +40,8 @@ for i in range(1, max_followers):
    chrome_driver_path = "./Driver.exe"
 
    driver = webdriver.Chrome(chrome_driver_path, options=Options)
-   driver.get("https://www.codegrepper.com/index.php")
-
-   time.sleep(1)  # Wait For Page to load
-
-   signup = driver.find_element_by_xpath("//*[text()='Signup']")
-   signup.click()
-
-   time.sleep(1)  # Wait for Popup
-
-   email_input = driver.find_element_by_class_name("input1")
-   email_input.send_keys(random_string, "@jub0t.com")
-
-   pass_input = driver.find_element_by_name("password")
-   pass_input.send_keys("jub0t123")
-   register = driver.find_element_by_id("register_button")
-   register.click()
-
-   time.sleep(2)  # Wait For Page to load
-
-   driver.get(
-       "https://www.codegrepper.com/api/follow.php?follow_user_id=" + user_Id + "&follow=1")
-
-   audit_log = open(
-       "C:/Users/0726abja/Documents/Code-Grepper/CG BOT/DataBase.txt", "a")
-   audit_log.writelines("\n" + random_string + "@jub0t.com:jub0t123",)
-
-   print('\033[34m', 'Follower Attempt', i, ":", '\033[32m', "Success")
+   for j in range(0, 9):
+       driver.get("https://www.google.com/search?q=grepper+gold")
+       time.sleep(1)
+   time.sleep(3)  # Wait For Page to load
    driver.quit()
