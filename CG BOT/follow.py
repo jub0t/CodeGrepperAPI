@@ -63,7 +63,7 @@ for i in range(1, max_followers):
        "https://www.codegrepper.com/api/follow.php?follow_user_id=" + user_Id + "&follow=1")
 
    audit_log = open(
-       "C:/Users/0726abja/Documents/Code-Grepper/CG BOT/DataBase.txt", "a")
+       "C:/Users/0726abja/Documents/Code-Grepper/CG BOT/emails.txt", "a")
    audit_log.writelines("\n" + random_string + "@jub0t.com:jub0t123",)
 
    print('\033[34m', 'Follower Attempt', i, ":", '\033[32m', "Success")
