@@ -37,7 +37,8 @@ Options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 for i in range(1, max_followers):
    random_string = secrets.token_hex(nbytes=16)
-   chrome_driver_path = "C:/Users/0726abja/Documents/Code-Grepper/CG BOT/Driver.exe"
+   chrome_driver_path = "./Driver.exe"
+
 
    driver = webdriver.Chrome(chrome_driver_path, options=Options)
    driver.get("https://www.codegrepper.com/index.php")
