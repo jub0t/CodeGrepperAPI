@@ -2,8 +2,6 @@
 
 ## Improvements
 
-There are files called `main.css`, `my_profile.js`, `popup.css` & `codegrepper.css` these are the minified versions of the Profile Page's stylesheets, Will help load the page faster.
-
 ## Bugs & Vulnerabilities
 
 ![Code Grepper Auto Follower](https://i.gyazo.com/9e0cd6a01891d5477798564a8b56215e.png)
