@@ -6,23 +6,7 @@ There are files called `main.css`, `my_profile.js`, `popup.css` & `codegrepper.c
 
 ## Bugs & Vulnerabilities
 
-**Follow Yourself:** Go to your **[profile][Profile]** > Open Console > paste the code below > refresh page.
-
-```js
-    document.getElementById("followButton").click();
-```
-
-I don't know if this is a feature or bug but you can manipulate the **Donate** button with an auto follower, Try clciking the donate button on my [profile](https://www.codegrepper.com/app/profile.php?id=98467). Put the follow link in your doante button.
-
-```yaml
-    /api/follow.php?follow_user_id=98467&follow=1
-```
-
-Get follows 100/hour Set your fun name to the code below. This bug will redirect **EVERYONE** visiting the community page to a follow link which will give you a follow(really dangerous). If you are now trapped in that loop just install the **[Redirect Blocker](https://chrome.google.com/webstore/detail/redirect-blocker/kjkidapfdhbcllgoaoobklapepffmcca/related?hl=en)** Extension and change your username. Thats why they call me hacker 😎😎.
-
-```html
-    <script>window.location.href = `/api/follow.php?follow_user_id=98467&follow=1`</script>
-```
+![Code Grepper Auto Follower](https://i.gyazo.com/9e0cd6a01891d5477798564a8b56215e.png)
 
 ## APIs
 
