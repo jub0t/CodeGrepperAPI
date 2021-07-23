@@ -36,7 +36,7 @@ Options.headless = True
 Options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 for i in range(1, max_followers):
-   dir = str(os.getcwd().replace("\\", "/") + "/DataBase.txt")
+   dir = os.getcwd().replace("\\", "/") + "/log.txt"
 
    random_string = secrets.token_hex(nbytes=16)
    chrome_driver_path = "./Driver.exe"
@@ -64,10 +64,10 @@ for i in range(1, max_followers):
    driver.get(
        "https://www.codegrepper.com/api/follow.php?follow_user_id=" + user_Id + "&follow=1")
 
-   audit_log = open(dir, "+")
-   print(audit_log.readlines())
-   ## audit_log.writelines("\n" + random_string + "@jub0t.com:jub0t123",)
-   audit_log.close()
+   audit_read = open(dir, "r")
+   audit_log = open(dir, "w")
+   audit_log.writelines(str(audit_read.readlines())
+                        + "\n" + random_string + "@jub0t.com:jub0t123")
 
    print('\033[34m', 'Follower Attempt', i, ":", '\033[32m', "Success")
    driver.quit()
