@@ -4,11 +4,13 @@
 
 ## Bugs & Vulnerabilities
 
-![Code Grepper Auto Follower](https://i.gyazo.com/9e0cd6a01891d5477798564a8b56215e.png)
-
 ## APIs
 
-Code Grepper APIs(just for researching -__-)
+Code Grepper APIs.
+
+```yaml
+https://www.codegrepper.com/api/profile.php
+```
 
 ```yaml
 https://www.codegrepper.com/search.php?q=
