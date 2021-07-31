@@ -10,8 +10,10 @@ List Code Grepper APIs. Below is a table that shows what type of request does th
 | Symbol | Type |
 |---|---|
 | 🟢 |  **`GET`** |
+| 🔵 |  **`PUT`** |
 | 🔴 |  **`POST`** |
-|   |   |
+| ⚪ |  **`DELETE`** |
+| ⚫ |  **`OPTIONS`** |
 
 ```yaml
 https://www.codegrepper.com/search.php?q=
