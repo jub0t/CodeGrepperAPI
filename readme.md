@@ -1,8 +1,7 @@
 # Code Grepper
 
-## Improvements
+**Code Grepper** information, Bugs and Vulnerablities and tricks are posted here, Star this repo and visit frequently. Follow me(**Jareer**) on **[Code Grepper][Profile]**
 
-## Bugs & Vulnerabilities
 
 ## APIs
 
@@ -51,7 +50,5 @@ https://www.codegrepper.com/api/follow.php?follow_user_id=98467&follow=1
 ```yaml
 https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467
 ```
-
-Follow on [Code Grepper][Profile]
 
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
