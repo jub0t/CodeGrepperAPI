@@ -7,10 +7,10 @@
 
 List Code Grepper APIs. Below is a table that shows what type of request does the API receive.
 
-| 🔴 |  `POST` |   |   |   |
+| Symbol |  |   |   |   |
 |---|---|---|---|---|
-| 🟢 |  `GET` |   |   |   |
-|   |   |   |   |   |
+| 🟢 |  **`GET`** |   |   |   |
+| 🔴 |  **`POST`** |   |   |   |
 |   |   |   |   |   |
 
 ```yaml
