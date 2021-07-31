@@ -17,7 +17,7 @@ https://www.codegrepper.com/api/profile.php
 ```
 
 ```yaml
-https://www.codegrepper.com/api/send_feedback.php
+https://www.codegrepper.com/api/save_answer.php
 ```
 
 ```yaml
@@ -29,7 +29,7 @@ https://www.codegrepper.com/api/update_answer.php
 ```
 
 ```yaml
-https://www.codegrepper.com/api/save_answer.php
+https://www.codegrepper.com/api/send_feedback.php
 ```
 
 ```yaml
