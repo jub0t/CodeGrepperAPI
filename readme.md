@@ -55,6 +55,10 @@ https://www.codegrepper.com/app/profile.php?id=98467
 https://www.codegrepper.com/codeimages/for-loop-javascript.png
 ```
 
+```
+https://www.codegrepper.com/api/get_user_stats.php?uid=98467
+```
+
 ```yaml
 https://www.codegrepper.com/api/follow.php?follow_user_id=98467&follow=1
 ```
