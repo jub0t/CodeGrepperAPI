@@ -23,9 +23,13 @@ Application search API returns HTML/Text response.
 https://www.codegrepper.com/search.php?q=
 ```
 
+View a user's profile with their userId.
+
 ```yaml
 https://www.codegrepper.com/app/profile.php?id=98467
 ```
+
+View a user's profile with their username(real_name)
 
 ```yaml
 https://www.codegrepper.com/profile/jareer
@@ -39,16 +43,28 @@ saves an answer to the codegrepper website,
 https://www.codegrepper.com/api/save_answer.php 🔴
 ```
 
+Publish/save an answer.
+
 ```yaml
 https://www.codegrepper.com/api/save_comment.php 🔴
 ```
+
+Updates the answer.
 
 ```yaml
 https://www.codegrepper.com/api/update_answer.php 🔴
 ```
 
+Retrieves the comment(s) of an answer.
+
 ```yaml
 https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467 🟢
+```
+
+Returns answers for a specific search.
+
+```yaml
+https://www.codegrepper.com/api/search.php?q=grepper&search_options=search_titles 🟢
 ```
 
 ### User
@@ -89,11 +105,19 @@ https://www.codegrepper.com/api/update_extension_privacy.php 🔴
 
 ### Other
 
-The feedback api requires 
+The feedback api, used to send feedback to the Code grepper devs.
 
 ```yaml
-https://www.codegrepper.com/api/send_feedback.php
+https://www.codegrepper.com/api/send_feedback.php 🔴
 ```
+
+An Auto-completor for the [**Search**](https://www.codegrepper.com/search.php) page.
+
+```yaml
+https://www.codegrepper.com/api/search_autocomplete.php?q=js 🟢
+```
+
+Just a random route used as a CDN returns Images, these images are used in the meta tags of the search page.
 
 ```yaml
 https://www.codegrepper.com/codeimages/for-loop-javascript.png 🟢
