@@ -17,6 +17,12 @@ List Code Grepper APIs. Below is a table that shows what type of request does th
 
 ### Application Pages
 
+View a user's profile with their username(real_name)
+
+```yaml
+https://www.codegrepper.com/profile/jareer 🟢
+```
+
 Application search API returns HTML/Text response.
 
 ```yaml
@@ -27,12 +33,6 @@ View a user's profile with their userId.
 
 ```yaml
 https://www.codegrepper.com/app/profile.php?id=98467 🟢
-```
-
-View a user's profile with their username(real_name)
-
-```yaml
-https://www.codegrepper.com/profile/jareer 🟢
 ```
 
 ### Answers
@@ -69,16 +69,16 @@ https://www.codegrepper.com/api/search.php?q=grepper&search_options=search_title
 
 ### User
 
-Returns user's belt stats, this includes previous belt, next belt & current belt percentage.
-
-```yaml
-https://www.codegrepper.com/api/get_user_stats.php?uid=98467 🟢
-```
-
 Returns JSON data for a user's profile. Like `profile_image`, `fun_name`, `real_name`, `donate_link` etc.
 
 ```yaml
 https://www.codegrepper.com/api/profile.php?id=98467 🟢
+```
+
+Returns user's belt stats, this includes previous belt, next belt & current belt percentage.
+
+```yaml
+https://www.codegrepper.com/api/get_user_stats.php?uid=98467 🟢
 ```
 
 This API is used to follow a user, you must be authenticated to do this.
