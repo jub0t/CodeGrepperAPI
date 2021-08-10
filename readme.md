@@ -89,7 +89,7 @@ https://www.codegrepper.com/api/update_extension_privacy.php 🔴
 
 ### Other
 
-The feedback api requires
+The feedback api requires 
 
 ```yaml
 https://www.codegrepper.com/api/send_feedback.php
