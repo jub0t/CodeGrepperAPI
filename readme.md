@@ -2,7 +2,6 @@
 
 **Code Grepper** information, Bugs and Vulnerablities and tricks are posted here, Star this repo and visit frequently. Follow me(**Jareer**) on **[Code Grepper][Profile]**
 
-
 ## APIs
 
 List Code Grepper APIs. Below is a table that shows what type of request does the API receive.
