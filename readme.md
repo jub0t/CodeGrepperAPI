@@ -122,7 +122,7 @@ https://www.codegrepper.com/api/add_team_members.php 🔴
 An auto completor for the team search users.
 
 ```yaml
-https://www.codegrepper.com/api/autocomplete_users_search.php?team_id=1&q=Jareer
+https://www.codegrepper.com/api/autocomplete_users_search.php?team_id=1&q=Jareer 🟢
 ```
 
 ### Settings
