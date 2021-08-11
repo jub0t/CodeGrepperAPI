@@ -75,6 +75,12 @@ https://www.codegrepper.com/api/search.php?q=grepper&search_options=search_title
 
 ### User
 
+Shows how many people did the user helped & and the ammount of problems solved.
+
+```yaml
+https://www.codegrepper.com/api/profile_helped_stats.php?id=98467
+```
+
 Returns JSON data for a user's profile. Like `profile_image`, `fun_name`, `real_name`, `donate_link` etc.
 
 ```yaml
