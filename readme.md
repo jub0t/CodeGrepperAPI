@@ -119,6 +119,12 @@ This API adds users to your team.
 https://www.codegrepper.com/api/add_team_members.php 🔴
 ```
 
+An auto completor for the team search users.
+
+```yaml
+https://www.codegrepper.com/api/autocomplete_users_search.php?team_id=1&q=Jareer
+```
+
 ### Settings
 
 The update privacy API is used to update your privacy settings, you can either set it to `true` or `false`, 0 means false 1 means true.
