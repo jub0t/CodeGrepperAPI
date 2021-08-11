@@ -125,6 +125,12 @@ An auto completor for the team search users.
 https://www.codegrepper.com/api/autocomplete_users_search.php?team_id=1&q=Jareer 🟢
 ```
 
+Shows all the Team answers, you need to be authenticated & in the team to retreive proper data.
+
+```yaml
+https://www.codegrepper.com/api/get_team_answers.php?&offset=0&sort_by=id_desc&team_id=348 🟢
+```
+
 ### Settings
 
 The update privacy API is used to update your privacy settings, you can either set it to `true` or `false`, 0 means false 1 means true.
