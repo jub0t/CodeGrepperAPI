@@ -14,7 +14,7 @@ List Code Grepper APIs. Below is a table that shows what type of request does th
 | ⚪ |  **`DELETE`** |
 | ⚫ |  **`OPTIONS`** |
 
-### Application Pages
+### [Application Pages](MainPage)
 
 View a user's profile with their username(real_name)
 
@@ -34,7 +34,7 @@ View a user's profile with their userId.
 https://www.codegrepper.com/app/profile.php?id=98467 🟢
 ```
 
-### Answers
+### [Answers](MainPage)
 
 saves an answer to the codegrepper website,
 
@@ -73,7 +73,7 @@ Returns answers for a specific search.
 https://www.codegrepper.com/api/search.php?q=grepper&search_options=search_titles 🟢
 ```
 
-### User
+### [User](MainPage)
 
 Shows how many people did the user helped & and the ammount of problems solved.
 
@@ -111,7 +111,7 @@ This API is used to follow a user, you must be authenticated to do this.
 https://www.codegrepper.com/api/follow.php?follow_user_id=98467&follow=1 🟢
 ```
 
-### Teams
+### [Teams](MainPage)
 
 This API adds users to your team.
 
@@ -131,7 +131,7 @@ Shows all the Team answers, you need to be authenticated & in the team to retrei
 https://www.codegrepper.com/api/get_team_answers.php?&offset=0&sort_by=id_desc&team_id=348 🟢
 ```
 
-### Settings
+### [Settings]MainPage
 
 The update privacy API is used to update your privacy settings, you can either set it to `true` or `false`, 0 means false 1 means true.
 
@@ -145,7 +145,7 @@ Updates your "My programming language" settings.
 https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
 ```
 
-### Other
+### [Other](MainPage)
 
 The feedback api, used to send feedback to the Code grepper devs.
 
@@ -178,3 +178,4 @@ https://www.codegrepper.com/api/logout.php
 ```
 
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
+[MainPage]: https://dahood.xyz/
