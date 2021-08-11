@@ -171,4 +171,10 @@ Just a random route used as a CDN returns Images, these images are used in the m
 https://www.codegrepper.com/codeimages/for-loop-javascript.png 🟢
 ```
 
+API used to log users out
+
+```yaml
+https://www.codegrepper.com/api/logout.php
+```
+
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
