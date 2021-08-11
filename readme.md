@@ -52,6 +52,13 @@ Updates the answer.
 
 ```yaml
 https://www.codegrepper.com/api/update_answer.php 🔴
+
+```
+
+Shows what answers are needed.
+
+```yaml
+https://www.codegrepper.com/api/get_terms_needing_answers.php 🟢
 ```
 
 Retrieves the comment(s) of an answer.
@@ -110,6 +117,12 @@ The feedback api, used to send feedback to the Code grepper devs.
 https://www.codegrepper.com/api/send_feedback.php 🔴
 ```
 
+No idea what this API does.
+
+```yaml
+https://www.codegrepper.com/api/get_user_code_languages.php 🟢
+```
+
 An Auto-completor for the [**Search**](https://www.codegrepper.com/search.php) page.
 
 ```yaml
@@ -120,6 +133,18 @@ Just a random route used as a CDN returns Images, these images are used in the m
 
 ```yaml
 https://www.codegrepper.com/codeimages/for-loop-javascript.png 🟢
+```
+
+Shows all the users on the community page, requires auth.
+
+```yaml
+https://www.codegrepper.com/api/get_belt_users.php?offset=0&limit=500 🟢
+```
+
+Updates your "My programming language" settings.
+
+```yaml
+https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
 ```
 
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
