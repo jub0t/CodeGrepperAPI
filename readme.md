@@ -81,10 +81,22 @@ Returns JSON data for a user's profile. Like `profile_image`, `fun_name`, `real_
 https://www.codegrepper.com/api/profile.php?id=98467 🟢
 ```
 
+Shows what Programming lagnuages does the user use.
+
+```yaml
+https://www.codegrepper.com/api/get_user_code_languages.php 🟢
+```
+
 Returns user's belt stats, this includes previous belt, next belt & current belt percentage.
 
 ```yaml
 https://www.codegrepper.com/api/get_user_stats.php?uid=98467 🟢
+```
+
+Shows all the users on the community page, requires auth.
+
+```yaml
+https://www.codegrepper.com/api/get_belt_users.php?offset=0&limit=500 🟢
 ```
 
 This API is used to follow a user, you must be authenticated to do this.
@@ -109,6 +121,12 @@ The update privacy API is used to update your privacy settings, you can either s
 https://www.codegrepper.com/api/update_extension_privacy.php 🔴
 ```
 
+Updates your "My programming language" settings.
+
+```yaml
+https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
+```
+
 ### Other
 
 The feedback api, used to send feedback to the Code grepper devs.
@@ -117,10 +135,10 @@ The feedback api, used to send feedback to the Code grepper devs.
 https://www.codegrepper.com/api/send_feedback.php 🔴
 ```
 
-No idea what this API does.
+Get who to follow, something that the algorithm mines from the database. Basically follow recommendation.
 
 ```yaml
-https://www.codegrepper.com/api/get_user_code_languages.php 🟢
+https://www.codegrepper.com/api/get_who_to_follow.php 🟢
 ```
 
 An Auto-completor for the [**Search**](https://www.codegrepper.com/search.php) page.
@@ -133,24 +151,6 @@ Just a random route used as a CDN returns Images, these images are used in the m
 
 ```yaml
 https://www.codegrepper.com/codeimages/for-loop-javascript.png 🟢
-```
-
-Shows all the users on the community page, requires auth.
-
-```yaml
-https://www.codegrepper.com/api/get_belt_users.php?offset=0&limit=500 🟢
-```
-
-Updates your "My programming language" settings.
-
-```yaml
-https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
-```
-
-Get who to follow, something that the algorithm mines from the database. Basically follow recommendation. 
-
-```yaml
-https://www.codegrepper.com/api/get_who_to_follow.php
 ```
 
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
