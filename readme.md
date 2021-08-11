@@ -147,4 +147,10 @@ Updates your "My programming language" settings.
 https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
 ```
 
+Get who to follow, something that the algorithm mines from the database. Basically follow recommendation. 
+
+```yaml
+https://www.codegrepper.com/api/get_who_to_follow.php
+```
+
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
