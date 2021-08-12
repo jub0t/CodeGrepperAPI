@@ -157,7 +157,7 @@ https://www.codegrepper.com/api/login.php 🔴
 {
     "chrome_grepper_id": "",
     "user_id": "",
-    "email": "Jareer@test@gmail.com",
+    "email": "Jareer@gmail.com",
     "password": "adwsawdsa",
 }
 ```
@@ -172,7 +172,7 @@ https://www.codegrepper.com/api/register.php 🔴
 {
     "chrome_grepper_id": "",
     "user_id": "",
-    "email": "Jareer@test@gmail.com",
+    "email": "Jareer@gmail.com",
     "password": "adwsawdsa",
 }
 ```
@@ -181,6 +181,20 @@ API used to log users out
 
 ```yaml
 https://www.codegrepper.com/api/logout.php 🟢
+```
+
+The reset password API.
+
+```yaml
+https://www.codegrepper.com/api/reset_password.php 🔴
+```
+
+```yaml
+{
+    "chrome_grepper_id": "",
+    "user_id": "",
+    "email": "Jareer@gmail.com",
+}
 ```
 
 The feedback api, used to send feedback to the Code grepper devs.
