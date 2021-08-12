@@ -15,6 +15,7 @@ List Code Grepper APIs. Below is a table that shows what type of request does th
 | ⚫ |  **`OPTIONS`** |
 
 ### [Application Pages](MainPage)
+
 View a user's profile with their username(real_name)
 
 ```yaml
