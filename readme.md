@@ -162,6 +162,21 @@ https://www.codegrepper.com/api/login.php 🔴
 }
 ```
 
+API to register users.
+
+```yaml
+https://www.codegrepper.com/api/register.php 🔴
+```
+
+```yaml
+{
+    "chrome_grepper_id": "",
+    "user_id": "",
+    "email": "Jareer@test@gmail.com",
+    "password": "adwsawdsa",
+}
+```
+
 API used to log users out
 
 ```yaml
