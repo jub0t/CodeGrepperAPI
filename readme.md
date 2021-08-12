@@ -15,7 +15,6 @@ List Code Grepper APIs. Below is a table that shows what type of request does th
 | ⚫ |  **`OPTIONS`** |
 
 ### [Application Pages](MainPage)
-
 View a user's profile with their username(real_name)
 
 ```yaml
@@ -147,6 +146,27 @@ https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=
 
 ### [Other](MainPage)
 
+API used while logging in.
+
+```yaml
+https://www.codegrepper.com/api/login.php 🔴
+```
+
+```yaml
+{
+    "chrome_grepper_id": "",
+    "user_id": "",
+    "email": "Jareer@test@gmail.com",
+    "password": "adwsawdsa",
+}
+```
+
+API used to log users out
+
+```yaml
+https://www.codegrepper.com/api/logout.php 🟢
+```
+
 The feedback api, used to send feedback to the Code grepper devs.
 
 ```yaml
@@ -171,11 +191,11 @@ Just a random route used as a CDN returns Images, these images are used in the m
 https://www.codegrepper.com/codeimages/for-loop-javascript.png 🟢
 ```
 
-API used to log users out
+API for the Stats page.
 
 ```yaml
-https://www.codegrepper.com/api/logout.php
-```
+https://www.codegrepper.com/api/get_user_answer_stats.php?statstype=views&answer_id=null&daterange=null 🟢
+```
 
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
 [MainPage]: https://dahood.xyz/
