@@ -222,7 +222,7 @@ The update privacy API is used to update your privacy settings, you can either s
 https://www.codegrepper.com/api/update_extension_privacy.php 🔴
 ```
 
-Updates your **[My programming language](Settings)** settings.
+Updates your **[My programming language][Settings]** settings.
 
 ```yaml
 https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
