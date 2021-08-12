@@ -87,28 +87,73 @@ Returns JSON data for a user's profile. Like `profile_image`, `fun_name`, `real_
 https://www.codegrepper.com/api/profile.php?id=98467 🟢
 ```
 
-Shows what Programming lagnuages does the user use.
+This API shows what Programming language(s) does the user use, returns an array in JSON. The Data includes `SucessCode`, `Name` etc.
 
 ```yaml
 https://www.codegrepper.com/api/get_user_code_languages.php 🟢
 ```
 
-Returns user's belt stats, this includes previous belt, next belt & current belt percentage.
+```yaml
+{
+    "success": true,
+    "ucl": [
+        {
+            "lkey": "String",
+            "name": "String",
+            "enabled": 0
+        }
+    ]
+}
+```
+
+Returns user's belt stats, this data includes Previous Belt, Next Belt & current belt percentage.
 
 ```yaml
 https://www.codegrepper.com/api/get_user_stats.php?uid=98467 🟢
 ```
 
-Shows all the users on the community page, requires auth.
+```yaml
+{
+    "coding_belt": [
+        "String",
+        0.000,
+        "String"
+    ],
+    "is_rank_private": "0",
+    "success": true
+}
+```
+
+Shows all the users on the community page, requires auth. This data includes `UserId`, `Username`, `BeltScore`, `BeltRank` etc.
 
 ```yaml
 https://www.codegrepper.com/api/get_belt_users.php?offset=0&limit=500 🟢
 ```
 
-This API is used to follow a user, you must be authenticated to do this.
+```yaml
+{
+    "users": [
+        {
+            "user_id": 0,
+            "fun_name": "String",
+            "is_rank_private": 0,
+            "belt_score": 0,
+            "profile_slug": "String",
+            "profile_image": "String",
+            "belt_rank": "String"
+        }
+    ]
+}
+```
+
+This API is used to follow a user, you must be authenticated to do this. This API returns either `1` or `0`.
 
 ```yaml
 https://www.codegrepper.com/api/follow.php?follow_user_id=98467&follow=1 🟢
+```
+
+```yaml
+1
 ```
 
 ### [Teams](MainPage)
@@ -119,10 +164,22 @@ This API adds users to your team.
 https://www.codegrepper.com/api/add_team_members.php 🔴
 ```
 
-An auto completor for the team search users.
+An auto completor for the team search users. This API can be used to get user's ID by their username.
 
 ```yaml
 https://www.codegrepper.com/api/autocomplete_users_search.php?team_id=1&q=Jareer 🟢
+```
+
+```yaml
+[
+    {
+        "is_team_member": null,
+        "fun_name": "String",
+        "id": 0,
+        "real_name": null,
+        "profile_image": null
+    }
+]
 ```
 
 Shows all the Team answers, you need to be authenticated & in the team to retreive proper data.
@@ -131,7 +188,33 @@ Shows all the Team answers, you need to be authenticated & in the team to retrei
 https://www.codegrepper.com/api/get_team_answers.php?&offset=0&sort_by=id_desc&team_id=348 🟢
 ```
 
-### [Settings]MainPage
+```yaml
+{
+    "answers": [
+        {
+            "answer_user_id": "String",
+            "is_others_answer": 0,
+            "search_answer_user_id": 0,
+            "fun_name": "String",
+            "i_upvoted": "String",
+            "upvotes": "String",
+            "downvotes": "String",
+            "score": "String",
+            "total_answer_hits": 19,
+            "term": "Question",
+            "created_at": "String",
+            "bounty": null,
+            "answer": "String",
+            "language": "String",
+            "bounty_approved": null,
+            "id": 0
+        }
+    ],
+    "total_count": 88
+}
+```
+
+### [Settings](MainPage)
 
 The update privacy API is used to update your privacy settings, you can either set it to `true` or `false`, 0 means false 1 means true.
 
@@ -139,7 +222,7 @@ The update privacy API is used to update your privacy settings, you can either s
 https://www.codegrepper.com/api/update_extension_privacy.php 🔴
 ```
 
-Updates your "My programming language" settings.
+Updates your **[My programming language](Settings)** settings.
 
 ```yaml
 https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
@@ -227,5 +310,6 @@ API for the Stats page.
 https://www.codegrepper.com/api/get_user_answer_stats.php?statstype=views&answer_id=null&daterange=null 🟢
 ```
 
-[Profile]: https://www.codegrepper.com/app/profile.php?id=98467
 [MainPage]: https://dahood.xyz/
+[Profile]: https://www.codegrepper.com/app/profile.php?id=98467
+[Settings]: https://www.codegrepper.com/app/settings-code-languages.php
