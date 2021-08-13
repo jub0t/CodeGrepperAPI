@@ -22,16 +22,16 @@ View a user's profile with their username(real_name)
 https://www.codegrepper.com/profile/jareer 🟢
 ```
 
-Application search API returns HTML/Text response.
+Application search API returns HTML/Text response. The search API receives the `q` parameter, eg `?q=grepper`.
 
 ```yaml
-https://www.codegrepper.com/search.php?q= 🟢
+https://www.codegrepper.com/search.php 🟢
 ```
 
-View a user's profile with their userId.
+View a user's profile with their userId. This API takes `id` parameter, eg `?id=98467`.
 
 ```yaml
-https://www.codegrepper.com/app/profile.php?id=98467 🟢
+https://www.codegrepper.com/app/profile.php 🟢
 ```
 
 ### [Answers][MainPage]
@@ -67,10 +67,16 @@ Retrieves the comment(s) of an answer.
 https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467 🟢
 ```
 
-Returns answers for a specific search.
+Returns answers for a specific search(v2). Uses the `v`, `s` & `u` parameters(`?v=2&s=grepper&u=98467`).
 
 ```yaml
-https://www.codegrepper.com/api/search.php?q=grepper&search_options=search_titles 🟢
+https://www.codegrepper.com/api/get_answers_1.php
+```
+
+Returns answers for a specific search. Uses the `q` & `search_options` parameters(`?q=grepper&search_options=search_titles`).
+
+```yaml
+https://www.codegrepper.com/api/search.php 🟢
 ```
 
 ### [User][MainPage]
