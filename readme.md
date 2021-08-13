@@ -1,10 +1,10 @@
 # Code Grepper
 
-**Code Grepper** information, Bugs and Vulnerablities and tricks are posted here, Star this repo and visit frequently. Follow me(**Jareer**) on **[Code Grepper][Profile]**
+**Code Grepper** information, Bugs and Vulnerablities and tricks are posted here, Star this repo and visit frequently. Follow me(**Jareer**) on **[Code Grepper][Profile]**, Before taking any action please keep in mind that I([Jareer][Profile]) am/is not the real owner of [Codegrepper.com](https://www.codegrepper.com/), The Grepper website is owned by [Taylor Hawkes][TaylorProfile].
 
 ## APIs
 
-List Code Grepper APIs. Below is a table that shows what type of request does the API receive. Before taking any action please keep in mind that I([Jareer][Profile]) is/am not the real owner of [Codegrepper.com](https://www.codegrepper.com/), The Grepper website is owned by [Taylor Hawkes][TaylorProfile].
+List Code Grepper APIs. Below is a table that shows what type of request does the API receive.
 
 | Symbol | Type |
 |---|---|
