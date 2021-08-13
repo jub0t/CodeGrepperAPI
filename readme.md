@@ -4,7 +4,7 @@
 
 ## APIs
 
-List Code Grepper APIs. Below is a table that shows what type of request does the API receive.
+List Code Grepper APIs. Below is a table that shows what type of request does the API receive. Before taking any action please keep in mind that I([Jareer][Profile]) is/am not the real owner of [Codegrepper.com](https://www.codegrepper.com/), The Grepper website is owned by [Taylor Hawkes][TaylorProfile].
 
 | Symbol | Type |
 |---|---|
@@ -317,5 +317,6 @@ https://www.codegrepper.com/api/get_user_answer_stats.php?statstype=views&answer
 ```
 
 [MainPage]: https://dahood.xyz/
+[TaylorProfile]: https://github.com/TaylorHawkes
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
 [Settings]: https://www.codegrepper.com/app/settings-code-languages.php
