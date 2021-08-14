@@ -1,6 +1,10 @@
 # Code Grepper
 
 **Code Grepper** information, Bugs and Vulnerablities and tricks are posted here, Star this repo and visit frequently. Follow me(**Jareer**) on **[Code Grepper][Profile]**, Before taking any action please keep in mind that I([Jareer][Profile]) am/is not the real owner of [Codegrepper.com](https://www.codegrepper.com/), The Grepper website is owned by [Taylor Hawkes][TaylorProfile].
+s
+## Credit
+
+Documentation written by JUB0T([Jareer][Profile]), will really appretiate if you use [my site](https://dahood.xyz/) or hire me for a small task, Discord: `Rigby#6654`.
 
 ## APIs
 
