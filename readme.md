@@ -10,7 +10,7 @@ Any material used on this Github repository is the property of [Taylor Hawkes(Co
 | ⚪ |  **`DELETE`** |
 | ⚫ |  **`OPTIONS`** |
 
-### [Application Pages][MainPage]
+## [Application Pages][MainPage]
 
 Shows answers requires the `q` parameter.
 
@@ -30,7 +30,7 @@ View a user's profile with their userId. This API requires `id` parameter.
 https://www.codegrepper.com/app/profile.php 🟢
 ```
 
-### [Answers][MainPage]
+## [Answers][MainPage]
 
 saves an answer to the codegrepper website,
 
@@ -75,7 +75,7 @@ Returns answers for a specific search. Uses the `q` & `search_options` parameter
 https://www.codegrepper.com/api/search.php 🟢
 ```
 
-### [User][MainPage]
+## [User][MainPage]
 
 Shows how many people did the user helped & and the ammount of problems solved.
 
@@ -158,7 +158,7 @@ https://www.codegrepper.com/api/follow.php?follow_user_id=98467&follow=1 🟢
 1
 ```
 
-### [Teams][MainPage]
+## [Teams][MainPage]
 
 This API adds users to your team.
 
@@ -216,7 +216,7 @@ https://www.codegrepper.com/api/get_team_answers.php?&offset=0&sort_by=id_desc&t
 }
 ```
 
-### [Settings][MainPage]
+## [Settings][MainPage]
 
 The update privacy API is used to update your privacy settings, you can either set it to `true` or `false`, 0 means false 1 means true.
 
@@ -230,7 +230,7 @@ Updates your **[My programming language][Settings]** settings.
 https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
 ```
 
-### [Other][MainPage]
+## [Other][MainPage]
 
 API used while logging in.
 
