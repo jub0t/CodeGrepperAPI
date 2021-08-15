@@ -1,14 +1,6 @@
-# Code Grepper
+# Code Grepper APIs
 
-**Code Grepper** information, Bugs and Vulnerablities and tricks are posted here, Star this repo and visit frequently. Follow me(**Jareer**) on **[Code Grepper][Profile]**, Before taking any action please keep in mind that I([Jareer][Profile]) am/is not the real owner of [Codegrepper.com](https://www.codegrepper.com/), The Grepper website is owned by [Taylor Hawkes][TaylorProfile].
-s
-## Credit
-
-Documentation written by JUB0T([Jareer][Profile]), will really appretiate if you use [my site](https://dahood.xyz/) or hire me for a small task, Discord: `Rigby#6654`.
-
-## APIs
-
-List Code Grepper APIs. Below is a table that shows what type of request does the API receive.
+Any material used on this Github repository is the property of [Taylor Hawkes(Code Grepper)](https://www.codegrepper.com/) Document written by [Jareer](https://www.codegrepper.com/profile/jareer). Don't forget to Star the repo and visit frequently for new updates. List of Code Grepper APIs. Below is a table that shows what type of request does the API receive.
 
 | Symbol | Type |
 |---|---|
@@ -20,19 +12,19 @@ List Code Grepper APIs. Below is a table that shows what type of request does th
 
 ### [Application Pages][MainPage]
 
+Shows answers requires the `q` parameter.
+
+```yaml
+https://www.codegrepper.com/search.php 🟢
+```
+
 View a user's profile with their username(real_name)
 
 ```yaml
 https://www.codegrepper.com/profile/jareer 🟢
 ```
 
-Application search API returns HTML/Text response. The search API receives the `q` parameter, eg `?q=grepper`.
-
-```yaml
-https://www.codegrepper.com/search.php 🟢
-```
-
-View a user's profile with their userId. This API takes `id` parameter, eg `?id=98467`.
+View a user's profile with their userId. This API requires `id` parameter.
 
 ```yaml
 https://www.codegrepper.com/app/profile.php 🟢
