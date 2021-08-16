@@ -160,6 +160,18 @@ https://www.codegrepper.com/api/follow.php?follow_user_id=98467&follow=1 🟢
 
 ## [Teams][MainPage]
 
+This API is used to join a team.
+
+```yaml
+https://www.codegrepper.com/api/join_team.php 🔴
+```
+
+```yaml
+{
+    team_member_id: 0000
+}
+```
+
 This API adds users to your team.
 
 ```yaml
