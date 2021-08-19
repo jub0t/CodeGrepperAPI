@@ -21,14 +21,18 @@ Body = {
     "search": "Grepper Gold",
     "user_id": 98467
 }
+headers = {
+    "cookie": 'a'
+}
+
 
 def REQUESTS():
     while True:
         SendGet = requests.get(GET)
         print(SendGet, "\n")
-        SendPOST = requests.get(POST data=Body)
+        SendPOST = requests.get(POST, headers=headers, data=Body)
         print(SendPOST, "\n")
-        SendPOST2 = requests.get(POST2)
+        SendPOST2 = requests.get(POST2, headers=headers)
         print(SendPOST2, "\n")
 
 
