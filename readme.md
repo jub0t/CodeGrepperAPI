@@ -85,7 +85,7 @@ https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467 🟢
 Returns answers for a specific search(v2). Uses the `v`, `s` & `u` parameters(`?v=2&s=grepper&u=98467`).
 
 ```yaml
-https://www.codegrepper.com/api/get_answers_1.php
+https://www.codegrepper.com/api/get_answers_1.php 🟢
 ```
 
 ```yaml
@@ -107,7 +107,7 @@ https://www.codegrepper.com/api/search.php 🟢
 Shows how many people did the user helped & and the ammount of problems solved and developers helped.
 
 ```yaml
-https://www.codegrepper.com/api/profile_helped_stats.php?id=98467
+https://www.codegrepper.com/api/profile_helped_stats.php?id=98467 🟢
 ```
 
 ```yaml
@@ -143,7 +143,7 @@ https://www.codegrepper.com/api/profile.php?id=98467 🟢
 Here is the user activity API, this api is ussed to make the Codegrepper heatmap chart(contribution board).
 
 ```yaml
-https://www.codegrepper.com/api/get_user_activity_stats.php?user_id=98467
+https://www.codegrepper.com/api/get_user_activity_stats.php?user_id=98467 🟢
 ```
 
 ```yaml
@@ -210,7 +210,7 @@ https://www.codegrepper.com/api/get_user_stats.php?uid=98467 🟢
 Shows user's feed, requires auth
 
 ```yaml
-https://www.codegrepper.com/api/get_my_feed.php
+https://www.codegrepper.com/api/get_my_feed.php 🟢
 ```
 
 ```yaml
@@ -431,7 +431,7 @@ https://www.codegrepper.com/api/get_who_to_follow.php 🟢
 Shows top profile answers.
 
 ```yaml
-https://www.codegrepper.com/api/profile_top_answers.php?id=98467
+https://www.codegrepper.com/api/profile_top_answers.php?id=98467 🟢
 ```
 
 ```yaml
