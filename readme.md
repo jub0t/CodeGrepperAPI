@@ -63,10 +63,37 @@ Retrieves the comment(s) of an answer.
 https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467 🟢
 ```
 
+```yaml
+{
+  "comments": [
+    {
+      "id": 467,
+      "user_id": 98467,
+      "comment": "testing 123 hello",
+      "created_at": "2021-07-16 23:43:41",
+      "profile_slug": "jareer",
+      "fun_name": "Undefined",
+      "t_upvotes": null,
+      "t_downvotes": null,
+      "i_upvoted": null,
+      "i_downvoted": null
+    }
+  ]
+}
+```
+
 Returns answers for a specific search(v2). Uses the `v`, `s` & `u` parameters(`?v=2&s=grepper&u=98467`).
 
 ```yaml
 https://www.codegrepper.com/api/get_answers_1.php
+```
+
+```yaml
+{
+  "answers": [],
+  "products": [],
+  "language_guess": "whatever"
+}
 ```
 
 Returns answers for a specific search. Uses the `q` & `search_options` parameters(`?q=grepper&search_options=search_titles`).
