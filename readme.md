@@ -497,6 +497,11 @@ Use this in `POST` requests headers `cookie: PHPSESSID=`.
 * Open EditThisCookie and click on `PHPSESSID`
 * Copy and use it ;)
 
+## Grepper Readme Stat Cards
+
+Have you tried our app we made with Grepper APIs? You can try it here or download source fro [this repo](https://github.com/jareer12/Grepper-Readme-Stats).
+[![Jareer's Belt](http://grepper.roearn.net/belt.php?user_id=98467)](https://github.com/jareer12/Grepper-Readme-Stats)
+
 [MainPage]: https://dahood.xyz/
 [TaylorProfile]: https://github.com/TaylorHawkes
 [Profile]: https://www.codegrepper.com/app/profile.php?id=98467
