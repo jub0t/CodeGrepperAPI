@@ -499,7 +499,8 @@ Use this in `POST` requests headers `cookie: PHPSESSID=`.
 
 ## Grepper Readme Stat Cards
 
-Have you tried our app we made with Grepper APIs? You can try it here or download source fro [this repo](https://github.com/jareer12/Grepper-Readme-Stats).
+Have you tried our tool we made with Grepper APIs? You can try it here or download source from [this repo](https://github.com/jareer12/Grepper-Readme-Stats). This tool allows you to render your grepper belt on your github profile, [See Demo](https://github.com/jareer12/jareer12)
+
 [![Jareer's Belt](http://grepper.roearn.net/belt.php?user_id=98467)](https://github.com/jareer12/Grepper-Readme-Stats)
 
 [MainPage]: https://dahood.xyz/
