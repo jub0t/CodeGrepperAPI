@@ -75,7 +75,7 @@ Returns answers for a specific search. Uses the `q` & `search_options` parameter
 https://www.codegrepper.com/api/search.php 🟢
 ```
 
-## [User][MainPage]
+## [Users][MainPage]
 
 Shows how many people did the user helped & and the ammount of problems solved.
 
@@ -87,6 +87,25 @@ Returns JSON data for a user's profile. Like `profile_image`, `fun_name`, `real_
 
 ```yaml
 https://www.codegrepper.com/api/profile.php?id=98467 🟢
+```
+
+**Example:**
+
+```yaml
+{
+  "profile_image": "98467_hKuVkwhdUxieQAfc5lVurPuwSPTQFiVSnWEIS8l4gecLZdSa0g3vba4.gif",
+  "fun_name": "Undefined",
+  "real_name": "Jareer",
+  "twitter_name": "",
+  "donate_link": "https://jareer.xyz/donate",
+  "how_to_help": "My Grepper Experience has been really POG, looking forward to collaborate. Rigby#6654(discord)",
+  "location": "Mars",
+  "is_rank_private": 0,
+  "is_activity_private": 1,
+  "is_expertise_private": 0,
+  "is_daily_activity_private": 1,
+  "enable_coding_activity": 1
+}
 ```
 
 This API shows what Programming language(s) does the user use, returns an array in JSON. The Data includes `SucessCode`, `Name` etc.
@@ -126,11 +145,40 @@ https://www.codegrepper.com/api/get_user_stats.php?uid=98467 🟢
 }
 ```
 
+Shows user's feed, requires auth
+
+```yaml
+https://www.codegrepper.com/api/get_my_feed.php
+```
+
+**Example:**
+
+```yaml
+{
+  "activity": [
+    {
+      "feed_type": "recent_answer",
+      "answer_created_at": "2021-10-01 04:52:16",
+      "answer": "int a = 80;\nint b = 20;\nint addition(int number1, int number2)\n{\n\tint result = number1 + number2;\n\treturn result;\n}\nConsole.WriteLine(addition( a,  b));",
+      "user_id": "262702",
+      "id": 333666,
+      "answer_title": "function in c# to do addition",
+      "fun_name": "Empire of programmers ",
+      "profile_slug": "vishnu",
+      "profile_image": "262702_IeIHn2AeTy0QlU1cf7V8LWlIMouvwH0PjZA4UVKk5gw8mw952eozbZN.gif",
+      "answer_user_id": 262702
+    }
+  ]
+}
+```
+
 Shows all the users on the community page, requires auth. This data includes `UserId`, `Username`, `BeltScore`, `BeltRank` etc.
 
 ```yaml
 https://www.codegrepper.com/api/get_belt_users.php?offset=0&limit=500 🟢
 ```
+
+**Example:**
 
 ```yaml
 {
@@ -184,17 +232,19 @@ An auto completor for the team search users. This API can be used to get user's 
 https://www.codegrepper.com/api/autocomplete_users_search.php?team_id=1&q=Jareer 🟢
 ```
 
-```yaml
+**Example:**
+
+````yaml
 [
-    {
-        "is_team_member": null,
-        "fun_name": "String",
-        "id": 0,
-        "real_name": null,
-        "profile_image": null
-    }
+  {
+    "is_team_member": null,
+    "fun_name": "Undefined",
+    "id": 98467,
+    "real_name": "Jareer",
+    "profile_image": "98467_hKuVkwhdUxieQAfc5lVurPuwSPTQFiVSnWEIS8l4gecLZdSa0g3vba4.gif"
+  },
 ]
-```
+````
 
 Shows all the Team answers, you need to be authenticated & in the team to retreive proper data.
 
@@ -318,11 +368,39 @@ Just a random route used as a CDN returns Images, these images are used in the m
 https://www.codegrepper.com/codeimages/for-loop-javascript.png 🟢
 ```
 
-API for the Stats page.
+This API shows all the users answer stats.
 
 ```yaml
 https://www.codegrepper.com/api/get_user_answer_stats.php?statstype=views&answer_id=null&daterange=null 🟢
 ```
+
+```yaml
+{
+  "views": [
+    {
+      "created_at": "2020-10-15",
+      "views": 0,
+      "copies": 0,
+      "upvotes": 0
+    }
+  ]
+}
+```
+
+## Dealing with Authorization(s)
+
+Every usser on Code Grepper has a unique `PHPSSESID` which is used to authenticate users. Follow the steps below To retrieve this token.
+
+### Usage
+
+Use this in `POST` requests headers `cookie: PHPSESSID=`.
+
+### Find PHPSESSID
+
+* Add the [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) chrome extension.
+* Open any page on Codegrepper.com
+* Open EditThisCookie and click on `PHPSESSID`
+* Copy and use it ;)
 
 [MainPage]: https://dahood.xyz/
 [TaylorProfile]: https://github.com/TaylorHawkes
