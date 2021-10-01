@@ -77,10 +77,17 @@ https://www.codegrepper.com/api/search.php 🟢
 
 ## [Users][MainPage]
 
-Shows how many people did the user helped & and the ammount of problems solved.
+Shows how many people did the user helped & and the ammount of problems solved and developers helped.
 
 ```yaml
 https://www.codegrepper.com/api/profile_helped_stats.php?id=98467
+```
+
+```yaml
+{
+  "developers_helped": "75294",
+  "hits": "109101"
+}
 ```
 
 Returns JSON data for a user's profile. Like `profile_image`, `fun_name`, `real_name`, `donate_link` etc.
@@ -105,6 +112,36 @@ https://www.codegrepper.com/api/profile.php?id=98467 🟢
   "is_expertise_private": 0,
   "is_daily_activity_private": 1,
   "enable_coding_activity": 1
+}
+```
+
+Here is the user activity API, this api is ussed to make the Codegrepper heatmap chart(contribution board).
+
+```yaml
+https://www.codegrepper.com/api/get_user_activity_stats.php?user_id=98467
+```
+
+```yaml
+{
+  "a": [
+    {
+      "ymd": "2021-01-01"
+    }
+  ],
+  "s": [
+    [
+      "whatever",
+      86,
+      "Whatever"
+    ]
+  ],
+  "f": [
+    [
+      "Unity",
+      116,
+      "unity"
+    ]
+  ]
 }
 ```
 
