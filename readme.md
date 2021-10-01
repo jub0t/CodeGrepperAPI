@@ -123,8 +123,6 @@ Returns JSON data for a user's profile. Like `profile_image`, `fun_name`, `real_
 https://www.codegrepper.com/api/profile.php?id=98467 🟢
 ```
 
-**Example:**
-
 ```yaml
 {
   "profile_image": "98467_hKuVkwhdUxieQAfc5lVurPuwSPTQFiVSnWEIS8l4gecLZdSa0g3vba4.gif",
@@ -215,8 +213,6 @@ Shows user's feed, requires auth
 https://www.codegrepper.com/api/get_my_feed.php
 ```
 
-**Example:**
-
 ```yaml
 {
   "activity": [
@@ -241,8 +237,6 @@ Shows all the users on the community page, requires auth. This data includes `Us
 ```yaml
 https://www.codegrepper.com/api/get_belt_users.php?offset=0&limit=500 🟢
 ```
-
-**Example:**
 
 ```yaml
 {
@@ -295,8 +289,6 @@ An auto completor for the team search users. This API can be used to get user's 
 ```yaml
 https://www.codegrepper.com/api/autocomplete_users_search.php?team_id=1&q=Jareer 🟢
 ```
-
-**Example:**
 
 ````yaml
 [
@@ -420,6 +412,22 @@ Get who to follow, something that the algorithm mines from the database. Basical
 https://www.codegrepper.com/api/get_who_to_follow.php 🟢
 ```
 
+```yaml
+{
+  "users": [
+    {
+      "fun_name": "The Frenchy",
+      "belt_score": 197824,
+      "profile_slug": "al",
+      "is_rank_private": 0,
+      "user_id": 113653,
+      "profile_image": null,
+      "belt_rank": "blue"
+    }
+  ]
+}
+```
+
 An Auto-completor for the [**Search**](https://www.codegrepper.com/search.php) page.
 
 ```yaml
@@ -453,7 +461,7 @@ https://www.codegrepper.com/api/get_user_answer_stats.php?statstype=views&answer
 
 ## Dealing with Authorization(s)
 
-Every usser on Code Grepper has a unique `PHPSSESID` which is used to authenticate users. Follow the steps below To retrieve this token.
+Every user on Code Grepper has a unique `PHPSSESID` which is used to authenticate users. Follow the steps below To retrieve this token.
 
 ### Usage
 
