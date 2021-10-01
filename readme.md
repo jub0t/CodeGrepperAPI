@@ -428,6 +428,29 @@ https://www.codegrepper.com/api/get_who_to_follow.php 🟢
 }
 ```
 
+Shows top profile answers.
+
+```yaml
+https://www.codegrepper.com/api/profile_top_answers.php?id=98467
+```
+
+```yaml
+{
+  "top_answers": [
+    {
+      "id": 196274,
+      "answer": "",
+      "created_at": "2021-02-09 21:36:30",
+      "total_results": 53,
+      "search_term": "server info discord.js",
+      "score": "5.1138000",
+      "downvotes": 0,
+      "upvotes": 5
+    }
+  ]
+}
+```
+
 An Auto-completor for the [**Search**](https://www.codegrepper.com/search.php) page.
 
 ```yaml
