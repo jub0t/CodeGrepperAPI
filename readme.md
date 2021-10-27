@@ -1,6 +1,6 @@
 # Code Grepper APIs
 
-[![Stargazers repo roster for @jareer12/Code-Grepper](https://reporoster.com/stars/jareer12/Code-Grepper)](https://github.com/jareer12/Code-Grepper/stargazers)
+[![Stargazers repo roster for @jareer12/Code-Grepper](https://reporoster.com/stars/dark/jareer12/Code-Grepper)](https://github.com/jareer12/Code-Grepper/stargazers)
 
 Any material used on this Github repository is the property of [Taylor Hawkes(Code Grepper)](https://www.codegrepper.com/) Document written by [Jareer](https://www.codegrepper.com/profile/jareer). Don't forget to Star the repo and visit frequently for new updates. List of Code Grepper APIs. Below is a table that shows what type of request does the API receive.
 
