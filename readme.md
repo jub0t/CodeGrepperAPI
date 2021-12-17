@@ -1,7 +1,5 @@
 # CodeGrepper API Docs[Unofficial]
 
-[![Stargazers repo roster for @jareer12/Code-Grepper](https://reporoster.com/stars/jareer12/Code-Grepper)](https://github.com/jareer12/Code-Grepper/stargazers)
-
 | Symbol | Type          |
 | ------ | ------------- |
 | 🟢      | **`GET`**     |
@@ -12,10 +10,10 @@
 
 ## [Application Pages][MainPage]
 
-Shows answers requires the `q` parameter.
+Shows answers.
 
 ```yaml
-https://www.codegrepper.com/search.php 🟢
+https://www.codegrepper.com/search.php?q=js%20loop 🟢
 ```
 
 View a user's profile with their username(slug_name)
