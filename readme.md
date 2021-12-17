@@ -515,14 +515,32 @@ Every user on Code Grepper has a unique `PHPSSESID` which is used to authenticat
 
 ### Usage
 
-Use this in `POST` requests headers `cookie: PHPSESSID=`.
-
-### Find PHPSESSID
-
 * Add the [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) chrome extension.
 * Open any page on Codegrepper.com
 * Open EditThisCookie and click on `PHPSESSID`
-* Copy and use it ;)
+* The auth can then be used with POST request like `PHPSESSID=${Cookie}`
+
+```yaml
+    fetch(`https://www.codegrepper.com/`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'cookie': `PHPSESSID=${Cookie}`
+        },
+        body: JSON.stringify({
+          "Data": "Payload"
+        }),
+    })
+        .then((res) => res.json())
+        .then((data) => {
+            try {
+                console.log(data)
+            } catch {
+                console.log(`No Data Returned`)
+            }
+        })
+        .catch((err) => console.log(err));
+```
 
 [MainPage]: https://jubot.site/
 [TaylorProfile]: https://github.com/TaylorHawkes
