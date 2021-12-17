@@ -515,10 +515,10 @@ Every user on Code Grepper has a unique `PHPSSESID` which is used to authenticat
 
 ### Usage
 
-* Add the [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) chrome extension.
-* Open any page on Codegrepper.com
-* Open EditThisCookie and click on `PHPSESSID`
-* The auth can then be used with POST request like `PHPSESSID=${Cookie}`
+* > Open Application from DevConsoles
+* > Open Cookies
+* > Copy The `PHPSESSID`
+* > The auth can then be used with POST request like `PHPSESSID=${Cookie}`
 
 ```yaml
     fetch(`https://www.codegrepper.com/`, {
