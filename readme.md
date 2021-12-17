@@ -2,15 +2,15 @@
 
 [![Stargazers repo roster for @jareer12/Code-Grepper](https://reporoster.com/stars/dark/jareer12/Code-Grepper)](https://github.com/jareer12/Code-Grepper/stargazers)
 
-Any material used on this Github repository is the property of [Taylor Hawkes(Code Grepper)](https://www.codegrepper.com/) Document written by [Jareer](https://www.codegrepper.com/profile/jareer). Don't forget to Star the repo and visit frequently for new updates. List of Code Grepper APIs. Below is a table that shows what type of request does the API receive.
+Unofficial Codegrepper APIs documentation.
 
-| Symbol | Type |
-|---|---|
-| 🟢 |  **`GET`** |
-| 🔵 |  **`PUT`** |
-| 🔴 |  **`POST`** |
-| ⚪ |  **`DELETE`** |
-| ⚫ |  **`OPTIONS`** |
+| Symbol | Type          |
+| ------ | ------------- |
+| 🟢      | **`GET`**     |
+| 🔵      | **`PUT`**     |
+| 🔴      | **`POST`**    |
+| ⚪      | **`DELETE`**  |
+| ⚫      | **`OPTIONS`** |
 
 ## [Application Pages][MainPage]
 
@@ -20,7 +20,7 @@ Shows answers requires the `q` parameter.
 https://www.codegrepper.com/search.php 🟢
 ```
 
-View a user's profile with their username(real_name)
+View a user's profile with their username(slug_name)
 
 ```yaml
 https://www.codegrepper.com/profile/jareer 🟢
@@ -40,10 +40,18 @@ saves an answer to the codegrepper website,
 https://www.codegrepper.com/api/save_answer.php 🔴
 ```
 
-Publish/save an answer.
+This API is used to submit a reply to a comment. Payload example is below. If the request was successful `1` will be return as response else `0`.
 
 ```yaml
 https://www.codegrepper.com/api/save_comment.php 🔴
+```
+
+```yaml
+{
+  "comment": "Really helpful i search times million times a day",
+  "answer_id": 23,
+  "user_id": 98467
+}
 ```
 
 Updates the answer.
@@ -53,16 +61,33 @@ https://www.codegrepper.com/api/update_answer.php 🔴
 
 ```
 
-Shows what answers are needed.
+The get_terms_needing_answers shows what answers are needed, these answers can reward you with belt percentage.
 
 ```yaml
 https://www.codegrepper.com/api/get_terms_needing_answers.php 🟢
 ```
 
-Retrieves the comment(s) of an answer.
+```yaml
+[
+  {
+    "id": 74776,
+    "term": "error: the sandbox is not in sync with the podfile.lock. run 'pod install' or update your cocoapods installation.",
+    "bonus_points": 500,
+    "bonus": 0
+  },
+  {
+    "id": 54345,
+    "term": "library: 'pem routines', function: 'get_name', reason: 'no start line', code: 'err_ossl_pem_no_start_line'",
+    "bonus_points": 0,
+    "bonus": 0
+  }
+]
+```
+
+This API return all the comments from an answer.
 
 ```yaml
-https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467 🟢
+https://www.codegrepper.com/api/get_answers_comments.php?aid=287391 🟢
 ```
 
 ```yaml
@@ -84,17 +109,21 @@ https://www.codegrepper.com/api/get_answers_comments.php?aid=287391&u=98467 🟢
 }
 ```
 
-Returns answers for a specific search(v2). Uses the `v`, `s` & `u` parameters(`?v=2&s=grepper&u=98467`).
+This API returns answers for a query, the API has 3 versions, the `v1` returns a few answers(or somtimes none), while `v2` and `v3` return an extra array called `more_answers`. The `s` parameter is the search query and the. The `u` parameter is optional that identifies the user that used the API.
 
 ```yaml
-https://www.codegrepper.com/api/get_answers_1.php 🟢
+https://www.codegrepper.com/api/get_answers_1.php?v=3&s=grepper 🟢
 ```
 
 ```yaml
 {
-  "answers": [],
+  "answers": [
+    {
+    }
+  ],
   "products": [],
-  "language_guess": "whatever"
+  "language_guess": "whatever",
+  "more_answers": []
 }
 ```
 
