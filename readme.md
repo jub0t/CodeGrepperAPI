@@ -520,7 +520,7 @@ Every user on Code Grepper has a unique `PHPSSESID` which is used to authenticat
 * > Copy The `PHPSESSID`
 * > The auth can then be used with POST request like `PHPSESSID=${Cookie}`
 
-```yaml
+```js
     fetch(`https://www.codegrepper.com/`, {
         method: 'POST',
         headers: {
