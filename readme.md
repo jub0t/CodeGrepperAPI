@@ -1,8 +1,6 @@
-# Code Grepper APIs
+# CodeGrepper API Docs[Unofficial]
 
-[![Stargazers repo roster for @jareer12/Code-Grepper](https://reporoster.com/stars/dark/jareer12/Code-Grepper)](https://github.com/jareer12/Code-Grepper/stargazers)
-
-Unofficial Codegrepper APIs documentation.
+[![Stargazers repo roster for @jareer12/Code-Grepper](https://reporoster.com/stars/jareer12/Code-Grepper)](https://github.com/jareer12/Code-Grepper/stargazers)
 
 | Symbol | Type          |
 | ------ | ------------- |
