@@ -375,6 +375,19 @@ Updates your **[My programming language][Settings]** settings.
 https://www.codegrepper.com/api/update_my_code_languages.php?l=whatever&enabled=1 🟢
 ```
 
+Updates your **[Notifications][Settings]** settings.
+
+```yaml
+https://www.codegrepper.com/api/update_notification_settings.php 🔴
+```
+
+```json
+  {
+    "update_name": "notify_on_comments",
+    "update_value": 1 // 0 for disable
+  }
+```
+
 ## [Other][MainPage]
 
 API used while logging in.
