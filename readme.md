@@ -1,5 +1,5 @@
 # CodeGrepper API Docs[Unofficial]
-Looking for a bundled verssion of the APIs? use the [NPM/YARN package](https://github.com/jareer12/grepper).
+Looking for a bundled version of the APIs? use the [NPM/YARN package](https://github.com/jareer12/grepper).
 | Symbol | Type          |
 | ------ | ------------- |
 | 🟢      | **`GET`**     |
