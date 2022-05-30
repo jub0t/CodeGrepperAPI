@@ -2,6 +2,11 @@
 
 Also check out our Code Grepper npm modules at [NPM/YARN package](https://github.com/jareer12/grepper).
 
+## Table of Contents
+
+- [Answers](#Answers)
+- [Users](#Users)
+
 ## [Application Pages][mainpage]
 
 Fetch answers.
@@ -515,6 +520,41 @@ fetch(`https://www.codegrepper.com/`, {
     }
   })
   .catch((err) => console.log(err));
+```
+
+### Token Authorization
+
+There is a token-based authorization that I just found out about
+
+```js
+fetch(`https://www.codegrepper.com/api/account.php`, {
+  headers: {
+    "Content-Type": "application/json",
+    "x-auth-token": token, // Secret token, get it from localStorage. Or use https://www.npmjs.com/package/grepper for node.js
+    "x-auth-id": userId, // 98467
+  },
+})
+  .then((response) => {
+    return response.text();
+  })
+  .then((myJson) => {
+    try {
+      Data = JSON.parse(myJson);
+      console.log(Data);
+      if (Data) {
+      } else {
+        console.log(`No Data Fetched`);
+      }
+    } catch {
+      console.log(`No Data Fetched`);
+    }
+  })
+  .catch((err) => {
+    return {
+      Success: false,
+      Message: err,
+    };
+  });
 ```
 
 [mainpage]: https://jubot.site/
