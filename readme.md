@@ -41,34 +41,42 @@ This API is used to submit a reply to a comment. Payload example is below. If th
 https://www.codegrepper.com/api/save_comment.php
 ```
 
-![Image](./imgs/save_comment.png)
+```json
+{
+  "comment": "Really helpful i search times million times a day",
+  "answer_id": 23,
+  "user_id": 98467
+}
+```
 
 Updates the answer.
 
 ```yaml
-https://www.codegrepper.com/api/update_answer.php 🔴
+# POST
+https://www.codegrepper.com/api/update_answer.php
 ```
 
 The get_terms_needing_answers shows what answers are needed, these answers can reward you with belt percentage.
 
 ```yaml
-https://www.codegrepper.com/api/get_terms_needing_answers.php 🟢
+# GET
+https://www.codegrepper.com/api/get_terms_needing_answers.php
 ```
 
-```yaml
+```json
 [
   {
     "id": 74776,
     "term": "error: the sandbox is not in sync with the podfile.lock. run 'pod install' or update your cocoapods installation.",
     "bonus_points": 500,
-    "bonus": 0,
+    "bonus": 0
   },
   {
     "id": 54345,
     "term": "library: 'pem routines', function: 'get_name', reason: 'no start line', code: 'err_ossl_pem_no_start_line'",
     "bonus_points": 0,
-    "bonus": 0,
-  },
+    "bonus": 0
+  }
 ]
 ```
 
