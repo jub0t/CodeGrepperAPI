@@ -21,12 +21,14 @@
   - [Similiar Queries](./docs/answers/SIMILIARQUERIES.MD)
 - [Teams](./docs/teams)
   - [Invite User](./docs/teams/INVITEUSER.MD)
+  - [Team Answers](./docs/teams/TEAMANSWERS.MD)
 - [Auth](./docs/auth)
   - [Access Token](./docs/auth/TOKEN.MD)
 
 ## Authorization
 
-| Icon | Description                                                       |
-| ---- | ----------------------------------------------------------------- |
-| 🔒   | This API endpoint requires [Authorization](./docs/auth/TOKEN.MD). |
-| ✅   | No [Authorization](./docs/auth/TOKEN.MD) required.                |
+| Icon | Description                                                                                    |
+| ---- | ---------------------------------------------------------------------------------------------- |
+| ✅   | No [Authorization](./docs/auth/TOKEN.MD) required.                                             |
+| 🔒   | This API endpoint requires [Authorization](./docs/auth/TOKEN.MD).                              |
+| 🔓   | Partially requires [Authorization](./docs/auth/TOKEN.MD). Different output when auth provided. |

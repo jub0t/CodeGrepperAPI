@@ -1,3 +1,5 @@
+# Invite User(s) To Team 🔒
+
 ```yaml
 # POST
 https://www.codegrepper.com/api/add_team_members.php
