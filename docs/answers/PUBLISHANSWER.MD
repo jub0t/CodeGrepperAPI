@@ -1,9 +1,21 @@
+| Param                | Required |
+| -------------------- | -------- |
+| `answer`             | **YES**  |
+| `user_id`            | **YES**  |
+| `langauge`           | **NO**   |
+| `is_private`         | **YES**  |
+| `source_url`         | **NO**   |
+| `codeSearch.results` | **NO**   |
+| `codeSearch.search`  | **YES**  |
+
 ```yaml
 # POST
 https://www.codegrepper.com/api/save_answer.php
 ```
 
 ```js
+// Example Javascript Request
+
 const token = String;
 const userId = Number;
 
@@ -47,5 +59,10 @@ return fetch(`https://www.codegrepper.com/api/save_answer.php`, {
 ```
 
 ```json
-{}
+// Response
+{
+  "success": true,
+  "grepper_gold": 0,
+  "grepper_gold_total": 0
+}
 ```
