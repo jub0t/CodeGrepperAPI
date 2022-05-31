@@ -14,7 +14,7 @@
 - [Users](./docs/users/)
   - [Get User](./docs/users/GETUSER.MD)
   - [Get My Info](./docs/users/USERBYTOKEN.MD)
-  - [Get Who To Follow](./docs/users/WHOTOFOLLOW.MD)
+  - [Get Who To Follow](./docs/users/WHOTOFOLLOW.md)
 - [Answers](./docs/answers)
   - [Get Answers](./docs/answers/GETANSWERS.MD)
   - [Publish Answer](./docs/answers/PUBLISHANSWER.MD)
