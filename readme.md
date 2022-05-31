@@ -1,4 +1,4 @@
-# **Code Grepper API Documentation**
+# ⚡ **Code Grepper API Documentation**
 
 <img align="right" width="250" style="margin-left: 10px;" height="250" src="./assets/Grepper%20Logo.png">
 

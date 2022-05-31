@@ -4,7 +4,7 @@ Since Grepper doesn't have any official API endpoints to search for users we'll 
 
 ```yaml
 # GET
-https://www.codegrepper.com/api/autocomplete_users_search.php?q=Undefined
+https://www.codegrepper.com/api/autocomplete_users_search.php
 ```
 
 ```js

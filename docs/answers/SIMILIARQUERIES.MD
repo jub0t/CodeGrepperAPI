@@ -1,6 +1,6 @@
 ```yaml
 # GET
-https://www.codegrepper.com/api/search_term_alternatives.php?q={query}
+https://www.codegrepper.com/api/search_term_alternatives.php
 ```
 
 ```js
@@ -38,3 +38,7 @@ return fetch(
   ]
 }
 ```
+
+| Param | Type   | Required | Description                            |
+| ----- | ------ | -------- | -------------------------------------- |
+| `q`   | String | **YES**  | The query, whatever you want to search |

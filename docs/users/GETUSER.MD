@@ -2,7 +2,7 @@
 
 ```yaml
 # GET
-https://www.codegrepper.com/api/profile_helped_stats.php?id={userId}
+https://www.codegrepper.com/api/profile_helped_stats.php
 ```
 
 ```js
@@ -28,3 +28,7 @@ fetch(
   "hits": "745634"
 }
 ```
+
+| Param | Type   | Required | Description |
+| ----- | ------ | -------- | ----------- |
+| `id`  | String | **YES**  | User's id.  |
