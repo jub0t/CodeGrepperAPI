@@ -1,13 +1,3 @@
-| Param                | Required |
-| -------------------- | -------- |
-| `answer`             | **YES**  |
-| `user_id`            | **YES**  |
-| `langauge`           | **NO**   |
-| `is_private`         | **YES**  |
-| `source_url`         | **NO**   |
-| `codeSearch.results` | **NO**   |
-| `codeSearch.search`  | **YES**  |
-
 ```yaml
 # POST
 https://www.codegrepper.com/api/save_answer.php
@@ -66,3 +56,13 @@ return fetch(`https://www.codegrepper.com/api/save_answer.php`, {
   "grepper_gold_total": 0
 }
 ```
+
+| Param                | Type           | Required |
+| -------------------- | -------------- | -------- |
+| `answer`             | String         | **YES**  |
+| `user_id`            | Number         | **YES**  |
+| `langauge`           | String         | **NO**   |
+| `is_private`         | Number/Boolean | **YES**  |
+| `source_url`         | String         | **NO**   |
+| `codeSearch.results` | Array          | **NO**   |
+| `codeSearch.search`  | String         | **YES**  |
