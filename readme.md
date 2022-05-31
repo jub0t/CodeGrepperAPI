@@ -14,3 +14,5 @@
 - [Answers](./docs/answers)
   - [Get Answers](./docs/answers/GETANSWERS.MD)
   - [Publish Answer](./docs/answers/PUBLISHANSWER.MD)
+- [Auth](./docs/auth)
+  - [Access](./docs/auth/TOKEN.MD)

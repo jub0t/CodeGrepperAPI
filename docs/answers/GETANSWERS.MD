@@ -97,6 +97,7 @@ return await fetch(
 }
 ```
 
-| Param    | Type   | Required |
-| -------- | ------ | -------- |
-| `answer` | String | **YES**  |
+| Param | Type          | Required | Description                               |
+| ----- | ------------- | -------- | ----------------------------------------- |
+| `s`   | String        | **YES**  | The query, whatever you want to search    |
+| `v`   | String/Number | **YES**  | The version of API, 3 is the best option. |
