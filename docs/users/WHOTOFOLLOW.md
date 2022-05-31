@@ -1,4 +1,4 @@
-# Who To Follow
+# Who To Follow 🔒
 
 ```yaml
 # POST

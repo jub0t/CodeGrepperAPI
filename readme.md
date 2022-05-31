@@ -23,7 +23,14 @@
   - [Invite User](./docs/teams/INVITEUSER.MD)
   - [Team Answers](./docs/teams/TEAMANSWERS.MD)
 - [Auth](./docs/auth)
+  - [Login](./docs/auth/LOGIN.MD)
+  - [Register](./docs/auth/REGISTER.MD)
+  - [Logout](./docs/auth/LOGOUT.MD)
+  - [Reset Password](./docs/auth/RESETPASSWORD.MD)
   - [Access Token](./docs/auth/TOKEN.MD)
+- [Other](./docs/other)
+  - [Leaderboard](./docs/other/LEADERBOARD.MD)
+  - [Feedback](./docs/other/FEEDBACK.MD)
 
 ## Authorization
 
