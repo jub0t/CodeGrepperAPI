@@ -14,5 +14,8 @@
 - [Answers](./docs/answers)
   - [Get Answers](./docs/answers/GETANSWERS.MD)
   - [Publish Answer](./docs/answers/PUBLISHANSWER.MD)
+- [Users](./docs/users/)
+  - [Get User](./docs/users/GETUSER.MD)
+  - [Get My Info](./docs/users/USERBYTOKEN.MD)
 - [Auth](./docs/auth)
   - [Access Token](./docs/auth/TOKEN.MD)
