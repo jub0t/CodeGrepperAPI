@@ -11,11 +11,22 @@
 ## **Table Of Contents**
 
 - [NPM Package](https://www.npmjs.com/package/grepper)
-- [Answers](./docs/answers)
-  - [Get Answers](./docs/answers/GETANSWERS.MD)
-  - [Publish Answer](./docs/answers/PUBLISHANSWER.MD)
 - [Users](./docs/users/)
   - [Get User](./docs/users/GETUSER.MD)
   - [Get My Info](./docs/users/USERBYTOKEN.MD)
+  - [Get Who To Follow](./docs/users/WHOTOFOLLOW.MD)
+- [Answers](./docs/answers)
+  - [Get Answers](./docs/answers/GETANSWERS.MD)
+  - [Publish Answer](./docs/answers/PUBLISHANSWER.MD)
+  - [Similiar Queries](./docs/answers/SIMILIARQUERIES.MD)
+- [Teams](./docs/teams)
+  - [Invite User](./docs/teams/INVITEUSER.MD)
 - [Auth](./docs/auth)
   - [Access Token](./docs/auth/TOKEN.MD)
+
+## Authorization
+
+| Icon | Description                                                       |
+| ---- | ----------------------------------------------------------------- |
+| 🔒   | This API endpoint requires [Authorization](./docs/auth/TOKEN.MD). |
+| ✅   | No [Authorization](./docs/auth/TOKEN.MD) required.                |

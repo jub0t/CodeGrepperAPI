@@ -1,4 +1,4 @@
-# Get My Info
+# Get My Info 🔒
 
 ```yaml
 # GET

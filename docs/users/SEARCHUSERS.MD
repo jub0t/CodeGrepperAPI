@@ -1,4 +1,4 @@
-# Search User
+# Search User ✅
 
 Since Grepper doesn't have any official API endpoints to search for users we'll use the autocomlpete API from team invite.
 

@@ -1,4 +1,4 @@
-# Get User
+# Get User ✅
 
 ```yaml
 # GET
