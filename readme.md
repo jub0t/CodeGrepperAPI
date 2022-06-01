@@ -13,10 +13,16 @@
 - [NPM Package](https://www.npmjs.com/package/grepper)
 - [Users](./docs/users/)
   - [Get User](./docs/users/GETUSER.MD)
+  - [Get User Belt](./docs/users/GETUSERBELT.MD)
+  - [Get User Stats](./docs/users/GETUSERSTATS.MD)
   - [Get My Info](./docs/users/USERBYTOKEN.MD)
+  - [Search Users](./docs/users/SEARCHUSERS.MD)
   - [Get Who To Follow](./docs/users/WHOTOFOLLOW.md)
 - [Answers](./docs/answers)
   - [Get Answers](./docs/answers/GETANSWERS.MD)
+  - [Get Comments](./docs/answers/GETCOMMENTS.MD)
+  - [Search Answers](./docs/answers/SEARCHANSWER.MD)
+  - [Needed Answers](./docs/answers/NEEDEDANSWERS.MD)
   - [Publish Answer](./docs/answers/PUBLISHANSWER.MD)
   - [Similiar Queries](./docs/answers/SIMILIARQUERIES.MD)
 - [Teams](./docs/teams)
@@ -28,14 +34,20 @@
   - [Reset Password](./docs/auth/RESETPASSWORD.MD)
   - [Logout](./docs/auth/LOGOUT.MD)
   - [Access Token](./docs/auth/TOKEN.MD)
+- [Vulnerabilities](./docs/vulnerabilities)
+  - [Logout On Click](./docs/vulnerabilities/LOGOUT.MD)
 - [Other](./docs/other)
-  - [Leaderboard](./docs/other/LEADERBOARD.MD)
   - [Feedback](./docs/other/FEEDBACK.MD)
+  - [Leaderboard](./docs/other/LEADERBOARD.MD)
 
 ## Authorization
 
 | Icon | Description                                                                                    |
 | ---- | ---------------------------------------------------------------------------------------------- |
-| ✅   | No [Authorization](./docs/auth/TOKEN.MD) required.                                             |
+| ✅   | No authorization required.                                                                     |
 | 🔒   | This API endpoint requires [Authorization](./docs/auth/TOKEN.MD).                              |
 | 🔓   | Partially requires [Authorization](./docs/auth/TOKEN.MD). Different output when auth provided. |
+
+## Developer Note
+
+If you find any outdated, mising, or inaccurate content on this repository and would like to alter it, you can open an [Issue](https://github.com/jareer12/Code-Grepper-API-Documentation/issues) or send a [Pull Request](https://github.com/jareer12/Code-Grepper-API-Documentation/pulls). Typos, grammatical mistakes, etc are also expected to be corrected.

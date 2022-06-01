@@ -13,7 +13,7 @@ The `access_token` is easily accessible once you are logged in your account, the
 You can send a `POST` request to the login api endpoint with the account username and password. This will return the `access_token` and `userId` in the body. Make sure you send FormData data and not any other type of data, application/json, etc.
 
 ```yaml
-## Login Endpoint
+## POST
 https://www.codegrepper.com/api/login.php
 ```
 
