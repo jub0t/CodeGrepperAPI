@@ -50,4 +50,4 @@
 
 ## Developer Note
 
-If you find any outdated, mising, or inaccurate content on this repository and would like to alter it, you can open an [Issue](https://github.com/jareer12/Code-Grepper-API-Documentation/issues) or send a [Pull Request](https://github.com/jareer12/Code-Grepper-API-Documentation/pulls). Typos, grammatical mistakes, etc are also expected to be corrected.
+If you find any outdated, missing, or inaccurate content on this repository and would like to alter it, you can open an [Issue](https://github.com/jareer12/Code-Grepper-API-Documentation/issues) or send a [Pull Request](https://github.com/jareer12/Code-Grepper-API-Documentation/pulls). Typos, grammatical mistakes, etc are also expected to be corrected.
