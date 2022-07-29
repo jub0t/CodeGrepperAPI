@@ -2,7 +2,7 @@
 
 ```yaml
 # GET
-https://www.codegrepper.com/get_answers_1.php
+https://www.codegrepper.com/api/get_answers_1.php
 ```
 
 ```js
